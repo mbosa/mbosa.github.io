@@ -192,7 +192,7 @@ a.anchor {
 /* ---about--- */
 
 #about {borderr: 1px solid black;
-  background-color: #9c9db1;
+  background-color: #c5c6e2;
   text-align: center;
   padding: 30px 0 60px 0;
 }
@@ -317,7 +317,7 @@ a.anchor {
   text-decoration: none;
   color: inherit;
   display: inline-block;
-  background-color: #9c9db1;
+  background-color: #bbb;
   padding: 5px 10px;
   border-radius: 100px;
   cursor: pointer;
@@ -443,7 +443,7 @@ a.anchor {
 /*  ---contacts--- */
 
 #contacts {borderr: 1px solid black;
-  background-color: #9c9db1;
+  background-color: #c5c6e2;
   padding-top: 60px;
 }
 
