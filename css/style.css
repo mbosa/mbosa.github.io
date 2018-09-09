@@ -191,7 +191,7 @@ a.anchor {
 
 /* ---about--- */
 
-#about {borderr: 1px solid black;
+#about {
   background-color: #c7c8d8;
   text-align: center;
   padding: 30px 0 60px 0;
@@ -208,12 +208,12 @@ a.anchor {
   }
 }
 
-#about h3 {borderr: 1px solid indigo;
+#about h3 {
   margin:0;
   margin-bottom: 10px;
 }
 
-#skill-list {borderr: 1px solid blue;
+#skill-list {
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -225,17 +225,17 @@ a.anchor {
   margin: 0;
 }
 
-.skill {borderr: 1px solid red;
+.skill {
   width: 33.33%;
   padding-top: 10px;
 }
 
-.skill-icon {borderr: 1px solid green;
+.skill-icon {
   font-size: 2.5rem;
   color:;
 }
 
-.skill-text {borderr: 1px solid purple;
+.skill-text {
   margin: 5px;
   padding: 0;
 }
@@ -258,7 +258,7 @@ a.anchor {
 
 /* --- projects--- */
 
-#projects {borderr: 1px solid black;
+#projects {
   background-color: #d3d3d3;
   position: relative;
   z-index: 1;
@@ -267,14 +267,14 @@ a.anchor {
   box-shadow: 0 0 50px 30px #d3d3d3;
 }
 
-#slideshow {borderr: 1px solid blue;
+#slideshow {
   position: relative;
   overflow: hidden;
   padding: 0 5%;
   margin: auto;
 }
 
-.slide {borderr: 1px solid green;
+.slide {
   display: none;
   padding: 0 0;
 }
@@ -296,13 +296,13 @@ a.anchor {
 }
 /* end fading animation*/
 
-.project-img {borderr: 1px solid purple;
+.project-img {
   display: block;
   width: 100%;
   margin: auto;
 }
 
-.project-title {borderr: 1px solid red;
+.project-title {
   text-align: center;
   margin: 0;
   padding: 10px;
@@ -324,14 +324,18 @@ a.anchor {
   margin: 5px 0;
 }
 
-.project-description {borderr: 1px solid seagreen;
+.project-btn a:active {
+  background-color: #717171;
+}
+
+.project-description {
   text-align: center;
   margin: 0;
   padding: 0;
   line-height: 150%;
 }
 
-.prev-next-btn {borderr: 1px solid sienna;
+.prev-next-btn {
   cursor: pointer;
   position: absolute;
   top: 0px;
@@ -342,7 +346,7 @@ a.anchor {
   border-radius: 8px;
 }
 
-.prev-next-btn:active{
+.prev-next-btn:active {
   background-color: #717171;
 }
 
@@ -412,12 +416,12 @@ a.anchor {
   }
 }
 
-#dot-nav {borderr: 1px solid black;
+#dot-nav {
   text-align: center;
   padding-top: 10px;
 }
 
-.slide-dot {borderr: 1px solid fuchsia;
+.slide-dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -442,26 +446,22 @@ a.anchor {
 
 /*  ---contacts--- */
 
-#contacts {borderr: 1px solid black;
+#contacts {
   background-color: #c7c8d8;
   padding-top: 60px;
 }
 
-#my-contacts {borderr: 1px solid blue;
-
-}
-
-#contact-list {borderr: 1px solid red;
+#contact-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.contact-item {borderr: 1px solid green;
+.contact-item {
   margin:25px;
 }
 
-.contact-item a {borderr: 1px solid purple;
+.contact-item a {
   text-decoration: none;
   display: inline-block;
   color: inherit;
@@ -472,7 +472,7 @@ a.anchor {
   text-decoration: underline;
 }
 
-.contact-item span {borderr: 1px solid sienna;
+.contact-item span {
   display: inline-block;
   vertical-align: middle;
   margin: 0 10px;
